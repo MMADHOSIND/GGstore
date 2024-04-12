@@ -1,0 +1,148 @@
+
+/* share URL: http://www.20script.ir */
+
+ a{
+text-decoration:none;
+color:white;
+}
+
+   .main{
+	position:relative;
+left:50%;
+margin-left:-555px;
+	}
+	    
+
+ .slider{
+			overflow-x:hidden;
+ margin: 0 auto;
+      width: 102%;
+      height: 320px;
+	  margin-left:-10px;
+background:#f0f0f0 url(images/silderbackground.png);
+    }
+
+    .arrows{
+      width:48px;
+      height: 48px;
+      float:left;
+      cursor: pointer;
+      margin: 130px 5px 0px 5px;
+      background: url(images/arrow.png);
+    }
+    .arr-right{
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      transform: rotate(180deg);
+    }
+      #rt {
+          color: #fff;
+          text-decoration: none;
+          transition: all 1s ease;
+          padding: 5px 10px;
+          border-radius: 10px;
+      }
+
+          #rt:hover {
+              color: #000;
+              background-color: #fff;
+          }
+		  
+		  
+.apSlider{
+  float:left;
+  padding:0;
+  margin:0;
+  overflow: hidden;
+}
+.apSlider .holder{
+  float:left;
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+.apSlider li{
+  float:left;
+  padding:0;
+  margin:0;
+}
+.apSlider img{
+  padding:0;
+  margin:0;
+}
+
+
+
+nav{
+margin-right:-20px;
+margin-top:-16px;
+font-family:B Yekan;
+}
+nav ul ul {
+	z-index:9999;
+
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+			z-index:9999;
+	}
+
+
+nav ul {
+	z-index:9999;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+	nav ul:after {
+		z-index:9999;
+		content: ""; clear: both; display: block;
+	}
+
+	nav ul li {
+	z-index:9999;
+	-webkit-transition: all 0.1s ease-in;-moz-transition: all 0.1s ease-in;-o-transition: all 0.1s ease-in;transition: all 0.1s ease-in;
+		float: left;
+	}
+		nav ul li:hover {
+			z-index:9999;
+		-webkit-transition: all 0.1s ease-in;-moz-transition: all 0.1s ease-in;-o-transition: all 0.1s ease-in;transition: all 0.1s ease-in;
+
+		}
+			nav ul li:hover a {
+				z-index:9999;
+				color: #fff;
+			}
+		
+		nav ul li a {
+			z-index:9999;
+			display: block; padding: 25px 40px;
+			color: #757575; text-decoration: none;
+		}
+			
+		
+	nav ul ul {
+		background: #5f6975; border-radius: 0px; padding: 0;
+		position: absolute; top: 100%;
+	}
+		nav ul ul li {
+			float: none; 
+			border-top: 1px solid #6b727c;
+			border-bottom: 1px solid #575f6a; position: relative;
+		}
+			nav ul ul li a {
+				padding: 15px 40px;
+				color: #fff;
+				
+			}	
+				nav ul ul li a:hover {
+					background: #4b545f;
+				}
+		
+	nav ul ul ul {
+		position: absolute; left: 100%; top:0;
+	}
+		
